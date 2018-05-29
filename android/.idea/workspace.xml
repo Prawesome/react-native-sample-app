@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67e46f84-8d5c-4ccb-a213-d5cd20302846" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../App.js" afterPath="$PROJECT_DIR$/../App.js" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../index.js" afterPath="$PROJECT_DIR$/../index.js" />
-      <change beforePath="$PROJECT_DIR$/../store/actions/actionTypes.js" afterPath="$PROJECT_DIR$/../store/actions/actionTypes.js" />
-      <change beforePath="$PROJECT_DIR$/../store/actions/index.js" afterPath="$PROJECT_DIR$/../store/actions/index.js" />
-      <change beforePath="$PROJECT_DIR$/../store/actions/places.js" afterPath="$PROJECT_DIR$/../store/actions/places.js" />
-      <change beforePath="$PROJECT_DIR$/../store/configureStore.js" afterPath="$PROJECT_DIR$/../store/configureStore.js" />
-      <change beforePath="$PROJECT_DIR$/../store/reducers/places.js" afterPath="$PROJECT_DIR$/../store/reducers/places.js" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1906,7 +1898,7 @@
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="D:/Android/sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
-    <property name="sync.plugin.last.upgrade.timestamp" value="1527478647794" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1527571362325" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
