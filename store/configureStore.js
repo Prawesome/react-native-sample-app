@@ -1,6 +1,6 @@
-import { createStore, combineReducers } from 'redux'
+import { createStore, combineReducers } from 'redux';
 
-import places from './reducers/places'
+import placesReducer from './reducers/places';
 
 const rootReducer = combineReducers({
     places: placesReducer
@@ -8,6 +8,6 @@ const rootReducer = combineReducers({
 
 const configureStore = () => {
     return createStore(rootReducer);
-}
+};
 
 export default configureStore;
