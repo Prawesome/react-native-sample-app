@@ -14,6 +14,7 @@ import {
 
 class App extends Component {
   placeAddedHandler = placeName => {
+    console.log('test');
     this.props.onAddPlace(placeName);
   };
 
