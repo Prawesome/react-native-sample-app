@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67e46f84-8d5c-4ccb-a213-d5cd20302846" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../src/screens/Auth/Auth.js" afterPath="$PROJECT_DIR$/../src/screens/Auth/Auth.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -3012,7 +3013,7 @@
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="D:/Android/sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
-    <property name="sync.plugin.last.upgrade.timestamp" value="1527571362325" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1527735870954" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
