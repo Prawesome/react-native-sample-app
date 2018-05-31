@@ -1,10 +1,11 @@
 import React, { Component } from 'react'; 
+import { View, Text } from 'react-native'
 
 class FindPlaceScreen extends Component  {
-    return() {
+    render() {
         return(
             <View>
-                <Text>SharePlaceScreen</Text>
+                <Text>FindPlaceScreen</Text>
             </View>
         );
     }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { View, Text } from 'react-native';
 
 class SharePlaceScreen extends Component  {
-    return() {
+    render() {
         return(
             <View>
                 <Text>SharePlaceScreen</Text>

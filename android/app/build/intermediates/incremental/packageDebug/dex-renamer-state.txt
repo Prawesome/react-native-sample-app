@@ -1,4 +1,4 @@
-#Wed May 30 06:32:49 IST 2018
+#Thu May 31 12:43:53 IST 2018
 base.0=C\:\\Users\\praji\\Desktop\\Dev\\Web\\ReactNativeStudy\\new-app\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\Users\\praji\\Desktop\\Dev\\Web\\ReactNativeStudy\\new-app\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
