@@ -1,12 +1,23 @@
 import React from "react";
-import { TextInput } from "react-native";
+import { TextInput, StyleSheet } from "react-native";
 
 const defaultInput = props => (
   <TextInput
     style={styles.input}
-    placeholder="Email"
     underlineColorAndroid="transparent"
+    {...props}
   />
 );
+
+const styles = StyleSheet.create({
+    input: {
+      width: "100%",
+      borderWidth: 1,
+      borderColor: "#eee",
+      padding: 5,
+      margin: 8
+    }
+  });
+  
 
 export default defaultInput;
