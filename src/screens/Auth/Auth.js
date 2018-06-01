@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { View, Text, Button, TextInput, StyleSheet } from "react-native";
 
 import startTabs from "../MainTabs/startMainTabs";
-import DefaultInput from "../../components/UI/DefaultInput"
+import DefaultInput from "../../components/UI/DefaultInput";
+import HeadingText from "../HeadingText/HeadingText";
 
 class AuthScreen extends Component {
   loginHandler = () => {
@@ -12,7 +13,8 @@ class AuthScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Please Log In</Text>
+        <HeadingText>Please Login</HeadingText>
+        <Text style={styles.textHeading}>Please Log In</Text>
         <Button title="Switch to Login" />
         <View style={styles.inputContainer}>
           <DefaultInput
