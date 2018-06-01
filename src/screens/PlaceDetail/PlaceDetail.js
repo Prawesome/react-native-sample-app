@@ -13,17 +13,19 @@ import Icon from "react-native-vector-icons/Ionicons";
 import { deletePlace } from "../../../store/actions/index";
 
 class PlaceDetail extends Component {
-
   placeDeletedHandler = () => {
     this.props.onDeletePlace(this.props.selectedPlace.key);
     this.props.navigator.pop();
-  }
+  };
 
   render() {
     return (
       <View style={styles.modalContainer}>
         <View>
-          <Image source={this.props.selectedPlace.image} style={styles.placeImage} />
+          <Image
+            source={this.props.selectedPlace.image}
+            style={styles.placeImage}
+          />
           <Text style={styles.placeName}>{this.props.selectedPlace.name}</Text>
         </View>
         <View>
@@ -58,7 +60,7 @@ const styles = StyleSheet.create({
 
 const mapDispatchToProps = dispatch => {
   return {
-    onDeletePlace: (key) => dispatch(deletePlace(key))
+    onDeletePlace: key => dispatch(deletePlace(key))
   };
 };
 
