@@ -29,8 +29,7 @@ const startTabs = () => {
       {
         screen: "awesome-places.FindPlaceScreen",
         label: "Find Place",
-        title: "Find Place",
-        icon: Icon.getImageSource("")
+        title: "Find Place"
       },
       {
         screen: "awesome-places.SharePlaceScreen",
