@@ -36,6 +36,7 @@ class FindPlaceScreen extends Component {
   };
 
   placesSearchHandler = () => {
+    this.state.placesLoaded = true;
     Animated.timing(this.state.removeAnim, {
       toValue: 0,
       duration: 500,
@@ -65,7 +66,7 @@ class FindPlaceScreen extends Component {
           transform: [
             {
               scale: this.state.removeAnim.interpolate({
-                inputRange: [0,1],
+                inputRange: [0, 1],
                 outputRange: [12, 1]
               })
             }
@@ -73,7 +74,7 @@ class FindPlaceScreen extends Component {
         }}
       >
         <TouchableOpacity onPress={this.placesSearchHandler}>
-          <View style={styles.serachButton}>
+          <View style={styles.searchButton}>
             <Text style={styles.searchButtonText}>Find Places</Text>
           </View>
         </TouchableOpacity>
