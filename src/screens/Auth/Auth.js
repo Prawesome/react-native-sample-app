@@ -9,6 +9,8 @@ import {
   Auth,
   Dimensions
 } from "react-native";
+import { connect } from "react-redux";
+import { tryAuth } from "../../../store/actions/index";
 
 import startTabs from "../MainTabs/startMainTabs";
 import DefaultInput from "../../components/UI/DefaultInput/DefaultInput";
@@ -65,6 +67,11 @@ class AuthScreen extends Component {
   };
 
   loginHandler = () => {
+    const authData = {
+        email: this.state.controls.email.value,
+        password: this.state.controls.password.value
+    };
+    this.props.onLogin(authData);
     startTabs();
   };
 
@@ -88,16 +95,6 @@ class AuthScreen extends Component {
       return {
         controls: {
           ...prevState.controls,
-          [key]: {
-            ...prevState.controls[key],
-            value: value,
-            valid: validate(
-              value,
-              prevState.controls[key].validationRules,
-              connectedValue
-            ),
-            touched: true
-          },
           confirmPassword: {
             ...prevState.controls.confirmPassword,
             valid:
@@ -108,7 +105,18 @@ class AuthScreen extends Component {
                     connectedValue
                   )
                 : prevState.controls.confirmPassword.valid
-          }
+          },
+          [key]: {
+            ...prevState.controls[key],
+            value: value,
+            valid: validate(
+              value,
+              prevState.controls[key].validationRules,
+              connectedValue
+            ),
+            touched: true
+          },
+          
         }
       };
     });
@@ -234,4 +242,10 @@ const styles = StyleSheet.create({
   }
 });
 
-export default AuthScreen;
+const mapDispatchToProps = dispatch => {
+  return {
+    onLogin: authData => dispatch(tryAuth(authData))
+  };
+};
+
+export default connect(null, mapDispatchToProps)(AuthScreen);
