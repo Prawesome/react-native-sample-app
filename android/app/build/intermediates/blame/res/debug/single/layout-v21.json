@@ -1,26 +1,26 @@
 [
     {
         "merged": "C:\\Users\\praji\\Desktop\\Dev\\Web\\ReactNativeStudy\\new-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\bottom_navigation_small_item.xml",
-        "source": "C:\\Users\\praji\\Desktop\\Dev\\Web\\ReactNativeStudy\\new-app\\android\\app\\build\\intermediates\\exploded-aar\\com.aurelhubert\\ahbottomnavigation\\2.0.6\\res\\layout-v21\\bottom_navigation_small_item.xml"
+        "source": "C:\\Users\\praji\\.gradle\\caches\\transforms-1\\files-1.1\\ahbottomnavigation-2.0.6.aar\\c11ede15b90e69f785c0f6fcca8f9f6f\\res\\layout-v21\\bottom_navigation_small_item.xml"
     },
     {
         "merged": "C:\\Users\\praji\\Desktop\\Dev\\Web\\ReactNativeStudy\\new-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\praji\\Desktop\\Dev\\Web\\ReactNativeStudy\\new-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_template_icon_group.xml"
+        "source": "C:\\Users\\praji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\2971093bcaf852400d112ccaf42821ba\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "C:\\Users\\praji\\Desktop\\Dev\\Web\\ReactNativeStudy\\new-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\praji\\Desktop\\Dev\\Web\\ReactNativeStudy\\new-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_action.xml"
+        "source": "C:\\Users\\praji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\2971093bcaf852400d112ccaf42821ba\\res\\layout-v21\\notification_action.xml"
     },
     {
         "merged": "C:\\Users\\praji\\Desktop\\Dev\\Web\\ReactNativeStudy\\new-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\bottom_navigation_item.xml",
-        "source": "C:\\Users\\praji\\Desktop\\Dev\\Web\\ReactNativeStudy\\new-app\\android\\app\\build\\intermediates\\exploded-aar\\com.aurelhubert\\ahbottomnavigation\\2.0.6\\res\\layout-v21\\bottom_navigation_item.xml"
+        "source": "C:\\Users\\praji\\.gradle\\caches\\transforms-1\\files-1.1\\ahbottomnavigation-2.0.6.aar\\c11ede15b90e69f785c0f6fcca8f9f6f\\res\\layout-v21\\bottom_navigation_item.xml"
     },
     {
         "merged": "C:\\Users\\praji\\Desktop\\Dev\\Web\\ReactNativeStudy\\new-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\praji\\Desktop\\Dev\\Web\\ReactNativeStudy\\new-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_template_custom_big.xml"
+        "source": "C:\\Users\\praji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\2971093bcaf852400d112ccaf42821ba\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
         "merged": "C:\\Users\\praji\\Desktop\\Dev\\Web\\ReactNativeStudy\\new-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\praji\\Desktop\\Dev\\Web\\ReactNativeStudy\\new-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_action_tombstone.xml"
+        "source": "C:\\Users\\praji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\2971093bcaf852400d112ccaf42821ba\\res\\layout-v21\\notification_action_tombstone.xml"
     }
 ]
