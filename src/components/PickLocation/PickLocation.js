@@ -1,5 +1,12 @@
 import React, { Component } from "react";
-import { View, Text, Button, StyleSheet, Dimensions } from "react-native";
+import {
+  View,
+  Text,
+  Button,
+  StyleSheet,
+  Dimensions,
+  PermissionsAndroid
+} from "react-native";
 import MapView from "react-native-maps";
 
 class PickLocation extends Component {
@@ -14,6 +21,10 @@ class PickLocation extends Component {
     },
     locationChosen: false
   };
+
+  componentDidMount() {
+    this.requestMapsPermission();
+  }
 
   pickLocationHandler = event => {
     const coords = event.nativeEvent.coordinate;
@@ -39,6 +50,7 @@ class PickLocation extends Component {
   getLocationHandler = () => {
     navigator.geolocation.getCurrentPosition(
       pos => {
+        console.log("succes");
         const coordsEvent = {
           nativeEvent: {
             coordinate: {
@@ -55,6 +67,25 @@ class PickLocation extends Component {
       }
     );
   };
+
+  requestMapsPermission = async () => {
+    try {
+      const granted = await PermissionsAndroid.request(
+        PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
+        {
+          title: "Map permission",
+          message: "I need it"
+        }
+      );
+      if (granted === PermissionsAndroid.RESULTS.GRANTED) {
+        console.log("Use the map now");
+      } else {
+        console.log("Enna thaan map use cheyyanda");
+      }
+    } catch (err) {
+      console.warn(err);
+    }
+  }
 
   render() {
     let marker = null;

@@ -14,18 +14,30 @@ import { addPlace } from "../../../store/actions/index";
 
 import MainText from "../../components/UI/MainText/MainText";
 import HeadingText from "../../components/UI/HeadingText/HeadingText";
-import PickImage from "../../components/PickImage/PickImage"
+import PickImage from "../../components/PickImage/PickImage";
 import PickLocation from "../../components/PickLocation/PickLocation";
 
 class SharePlaceScreen extends Component {
-
   static navigatorStyle = {
-    navBarButtonColor: 'orange'
-  }
+    navBarButtonColor: "orange"
+  };
 
-  state= {
-    placeName: ""
-  }
+  state = {
+    controls: {
+      placeName: {
+        value: "",
+        valid: false,
+        touched: false,
+        validationRules: {
+          notEmpty: true
+        }
+      },
+      location: {
+        value: null,
+        valid: false
+      }
+    }
+  };
 
   constructor(props) {
     super(props);
@@ -43,17 +55,30 @@ class SharePlaceScreen extends Component {
   };
 
   placeAddedHandler = () => {
-    if(this.state.placeName.trim() !== "") {
+    if (this.state.placeName.trim() !== "") {
       this.props.onAddPlace(this.state.placeName);
     }
-  
   };
 
-  placeNameChangedHandler = (val) => {
+  locationPickedHandler = location => {
+    this.setState(prevState => {
+      return {
+        controls: {
+          ...prevState.controls,
+          location: {
+            value: location,
+            valid: true
+          }
+        }
+      };
+    });
+  };
+
+  placeNameChangedHandler = val => {
     this.setState({
       placeName: val
     });
-  }
+  };
 
   render() {
     return (
@@ -63,10 +88,13 @@ class SharePlaceScreen extends Component {
             <HeadingText>Share a place with us</HeadingText>
           </MainText>
           <PickImage />
-          <PickLocation />
-          <PlaceInput placeName={this.state.placeName} onChangeText={this.placeNameChangedHandler} />
+          <PickLocation onLocationPick={this.locationPickedHandler} />
+          <PlaceInput
+            placeName={this.state.placeName}
+            onChangeText={this.placeNameChangedHandler}
+          />
           <View style={styles.button}>
-            <Button title="Share the place" onPress={this.placeAddedHandler}/>
+            <Button title="Share the place" onPress={this.placeAddedHandler} />
           </View>
         </View>
       </ScrollView>
@@ -97,4 +125,7 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-export default connect(null, mapDispatchToProps)(SharePlaceScreen);
+export default connect(
+  null,
+  mapDispatchToProps
+)(SharePlaceScreen);
