@@ -92,6 +92,10 @@
         "source": "C:\\Users\\praji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\2971093bcaf852400d112ccaf42821ba\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
+        "merged": "C:\\Users\\praji\\Desktop\\Dev\\Web\\ReactNativeStudy\\new-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "C:\\Users\\praji\\Desktop\\Dev\\Web\\ReactNativeStudy\\new-app\\node_modules\\react-native-image-picker\\android\\build\\intermediates\\packaged_res\\debug\\layout\\list_item.xml"
+    },
+    {
         "merged": "C:\\Users\\praji\\Desktop\\Dev\\Web\\ReactNativeStudy\\new-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\praji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\2971093bcaf852400d112ccaf42821ba\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
