@@ -72,7 +72,7 @@ class PickLocation extends Component {
           {marker}
         </MapView>
         <View style={styles.button}>
-          <Button title="Locate me" onPress={() => alert("Locaiton picked")} />
+          <Button title="Locate me" onPress={this.getLocationHandler} />
         </View>
       </View>
     );
